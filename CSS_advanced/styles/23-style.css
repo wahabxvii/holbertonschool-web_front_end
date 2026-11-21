@@ -567,4 +567,5 @@ ul.row {
 .footer-address { color: var(--text-color); }
 .social-link { display: block; }
 .social-link-svg { display: block; }
-.social-link svg { fill: var(--text-color); }
+.social-link svg,
+.social-link svg path { fill: var(--text-color); }

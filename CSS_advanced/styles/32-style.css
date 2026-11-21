@@ -567,7 +567,8 @@ ul.row {
 .footer-address { color: var(--text-color); }
 .social-link { display: block; }
 .social-link-svg { display: block; }
-.social-link svg { fill: var(--text-color); }
+.social-link svg,
+.social-link svg path { fill: var(--text-color); }
 
 .card-services .card-title { margin: 0; }
 .card-services a { display: block; padding: 2rem; background-color: var(--color-light-grey); }
@@ -666,3 +667,8 @@ ul.row {
 .button:hover { transition: var(--transition-duration); transition-property: color, background-color; }
 .card-work:hover .card-image { transition: var(--transition-duration) var(--transition-cubic-bezier); }
 .card-work .card-inner { transition: var(--transition-duration) var(--transition-cubic-bezier); }
+
+.button:hover {
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
+}
